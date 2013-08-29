@@ -10,21 +10,20 @@
 }
 
 #text {
-  font-size: 45px;
-  width: 500px;
 
-  text-align: center;
-  margin: 0 auto;
+width: 600px;
 
-
+margin: 0 auto;
+padding: 0;
 
 }
 
 #text h1 {
 
-margin: 0;
+margin: 0 auto;
 padding: 0;
-font-size: 260px;
+line-height: auto;
+
 
 }
 #menu {
@@ -72,25 +71,30 @@ ul#menu {
    -webkit-text-fill-color: transparent;
 
    /* remember non WebKit browsers will see all of this EXCEPT the text */
-   background: url('../blue_texture_by_lexiibabii01.jpg') no-repeat;
+   background: url('../blue_texture_by_lexiibabii01.jpg') repeat;
 
    /* the magic */
    -webkit-background-clip: text;
 
    font:  200px League Gothic, Sans-Serif;
-   line-height: 230px;
-   text-align: center;
+
+   width: auto;
 
 }
 
 .fancy_title {
-  text-align: center;
+width: 80%;
+
+margin: 0 auto;
 }
 .word10{
   font-size: 94px;
 }
 
 #hello {
-  font-size:  34px;
+  font-size:  64px;
   color: rgba(0,0,0,.4);
+  line-height: .5em;
+  padding: 0px 100px 0px 100px;
+
 }
