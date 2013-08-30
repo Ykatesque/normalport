@@ -1,6 +1,6 @@
 #intro {
   width: 100%;
-  min-height: 700px;
+  min-height: 735px;
   border: 1px solid green;
   text-align: center;
   padding-top: 100px;
@@ -21,7 +21,8 @@ text-align: justify;
 }
 #menu {
 
-  background: url('../lightpaperfibers.png');
+  /*background: url('../lightpaperfibers.png');*/
+  background: transparent;
 
 
 
@@ -56,7 +57,9 @@ ul#menu {
 
 .container {
   width: 95%;
-  min-height: 830px;
+
+
+  min-height: 800px;
   border: 2px solid pink;
   margin: 0 auto;
   background: url('../lightpaperfibers.png');
@@ -98,8 +101,16 @@ ul#menu {
 #aboutc {
   background: url('../image-1.jpg') repeat;
 
+
 }
 
+#portfolioc{
+  background: url('../image-2.jpg') repeat;
+}
+
+#contactc{
+  background: url('../image-3.jpg') repeat;
+}
 .fancy_title {
 
 margin: 0 0 0 10%;
