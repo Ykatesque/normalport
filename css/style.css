@@ -1,33 +1,27 @@
 #intro {
   width: 100%;
-  min-height: 900px;
-
+  min-height: 700px;
+  border: 1px solid green;
   text-align: center;
-  margin: 0 auto;
+  padding-top: 100px;
   background: url('../lightpaperfibers.png');
 
 
 }
 
 #text {
-
-width: 600px;
-
 margin: 0 auto;
-padding: 0;
+width: 600px;
+text-align: justify;
 
 }
 
 #text h1 {
 
-margin: 0 auto;
-padding: 0;
-line-height: auto;
-
-
 }
 #menu {
-  border: 1px solid green;
+
+  background: url('../lightpaperfibers.png');
 
 
 
@@ -36,19 +30,36 @@ line-height: auto;
 ul#menu {
   padding: 0;
   margin: 0;
-  text-align: right;
+  text-align: center;
 }
 
 #menu  li{
   display: inline;
-  font-size: 34px;
+  font-size: 44px;
+  padding-right: 35px;
+  font-family: League Gothic, Sans-Serif;
+
+}
+
+#menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #d1c39d;
+
+}
+
+
+#menu li a:hover {
+  border-bottom: 2px solid #d1c39d;
+
 }
 
 .container {
-  width: 100%;
+  width: 95%;
   min-height: 830px;
-
   border: 2px solid pink;
+  margin: 0 auto;
+  background: url('../lightpaperfibers.png');
 }
 
 
@@ -71,31 +82,34 @@ ul#menu {
    -webkit-text-fill-color: transparent;
 
    /* remember non WebKit browsers will see all of this EXCEPT the text */
-   background: url('../blue_texture_by_lexiibabii01.jpg') repeat;
+   background: url('../image-1.jpg') repeat;
 
    /* the magic */
    -webkit-background-clip: text;
 
-   font:  200px League Gothic, Sans-Serif;
+   font-family: League Gothic, Sans-Serif;
+
 
    width: auto;
 
 
 }
 
-.fancy_title {
-width: 80%;
+#aboutc {
+  background: url('../image-1.jpg') repeat;
 
-margin: 0 auto;
 }
-.word10{
-  font-size: 94px;
+
+.fancy_title {
+
+margin: 0 0 0 10%;
+font-size: 360px;
 }
+
 
 #hello {
   font-size:  64px;
   color: rgba(0,0,0,.4);
-  line-height: .5em;
-  padding: 0px 100px 0px 100px;
 
+  padding: 0px 0px 0px 0px;
 }
