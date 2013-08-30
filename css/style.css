@@ -60,7 +60,7 @@ ul#menu {
 
 
   min-height: 800px;
-  border: 2px solid pink;
+  border: 1px solid blue;
   margin: 0 auto;
   background: url('../lightpaperfibers.png');
 }
@@ -100,16 +100,20 @@ ul#menu {
 
 #aboutc {
   background: url('../image-1.jpg') repeat;
+  border: 1px solid red;
+  padding-top: 35px;
 
 
 }
 
 #portfolioc{
   background: url('../image-2.jpg') repeat;
+  padding-top: 35px;
 }
 
 #contactc{
   background: url('../image-3.jpg') repeat;
+  padding-top: 35px;
 }
 .fancy_title {
 
