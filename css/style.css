@@ -1,7 +1,7 @@
 #intro {
   width: 100%;
   min-height: 735px;
-  border: 1px solid green;
+
   text-align: center;
   padding-top: 100px;
   background: url('../lightpaperfibers.png');
@@ -36,7 +36,7 @@ ul#menu {
 
 #menu  li{
   display: inline;
-  font-size: 44px;
+  font-size: 34px;
   padding-right: 35px;
   font-family: League Gothic, Sans-Serif;
 
@@ -59,7 +59,7 @@ ul#menu {
   width: 95%;
 
 
-  min-height: 800px;
+  min-height: 840px;
   border: 1px solid blue;
   margin: 0 auto;
   background: url('../lightpaperfibers.png');
@@ -100,20 +100,28 @@ ul#menu {
 
 #aboutc {
   background: url('../image-1.jpg') repeat;
-  border: 1px solid red;
-  padding-top: 35px;
 
 
+
+
+}
+#wrapper {
+  border: 1px solid black;
+  width: 90%;
+  min-height: 700px;
+  margin: 40px  auto 0px auto ;
+  height: auto;
 }
 
 #portfolioc{
   background: url('../image-2.jpg') repeat;
-  padding-top: 35px;
+  border: 1px solid red;
+
 }
 
 #contactc{
   background: url('../image-3.jpg') repeat;
-  padding-top: 35px;
+
 }
 .fancy_title {
 
@@ -121,6 +129,24 @@ margin: 0 0 0 10%;
 font-size: 360px;
 }
 
+#otherp {
+  border: 1px solid blue;
+  width: 90%;
+  margin: 0px auto ;
+  overflow: hidden;
+}
+
+#otherp li {
+  display: inline;
+  float: left;
+  padding-right: 20px;
+}
+
+#otherp ul {
+width: 40%;
+border: 1px solid green;
+float: right;
+}
 
 #hello {
   font-size:  64px;

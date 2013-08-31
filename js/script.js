@@ -29,19 +29,19 @@ $(window).scroll(function() {
 
 var scrollPort = function(){
   event.preventDefault();
-  $('body, html').animate({scrollTop: 800 + 830}, 'slow');
+  $('body, html').animate({scrollTop: 840 + 840}, 'slow');
 
 };
 
 var scrollContact = function(){
   event.preventDefault();
-  $('body, html').animate({scrollTop: ((820 * 2)+ 820)}, 'slow');
+  $('body, html').animate({scrollTop: ((840 * 2)+ 840)}, 'slow');
 };
 
 
 var scrollAbout = function(){
   event.preventDefault();
-  $('body, html').animate({scrollTop: (800)}, 'slow');
+  $('body, html').animate({scrollTop: (840)}, 'slow');
   //$('.nav').css('background-image', 'url(../intoxicating_by_lexiibabii01-d53vl31.jpg)');
 
 
