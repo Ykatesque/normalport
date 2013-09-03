@@ -29,13 +29,13 @@ $(window).scroll(function() {
 
 var scrollPort = function(){
   event.preventDefault();
-  $('body, html').animate({scrollTop: 840 + 840}, 'slow');
+  $('body, html').animate({scrollTop: 880 + 840}, 'slow');
 
 };
 
 var scrollContact = function(){
   event.preventDefault();
-  $('body, html').animate({scrollTop: ((840 * 2)+ 840)}, 'slow');
+  $('body, html').animate({scrollTop: ((860 * 2)+ 880)}, 'slow');
 };
 
 
@@ -57,7 +57,6 @@ aboutlink.on('click', scrollAbout);
 //    },600);
 //     $('.display-sweet-image-behind').css('background-image','url(tumblr_md05w7QDZV1qkovyeo1_500.png)');
 // },300);
-
 
 
 

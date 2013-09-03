@@ -1,6 +1,13 @@
+@font-face
+{
+font-family: LeagueGothicCondensedRegular;
+src: url('../webfonts/leaguegothic-regular-webfont.ttf'),
+     url('Sansation_Light.eot'); /* IE9 */
+}
+
 #intro {
   width: 100%;
-  min-height: 735px;
+  min-height: 745px;
 
   text-align: center;
   padding-top: 100px;
@@ -59,7 +66,7 @@ ul#menu {
   width: 95%;
 
 
-  min-height: 840px;
+  min-height: 880px;
   border: 1px solid blue;
   margin: 0 auto;
   background: url('../lightpaperfibers.png');
@@ -121,12 +128,14 @@ ul#menu {
 
 #contactc{
   background: url('../image-3.jpg') repeat;
+  border: 1px solid pink;
 
 }
 .fancy_title {
 
 margin: 0 0 0 10%;
 font-size: 360px;
+text-transform: uppercase;
 }
 
 #otherp {
@@ -143,14 +152,90 @@ font-size: 360px;
 }
 
 #otherp ul {
-width: 40%;
+
 border: 1px solid green;
 float: right;
+font-family: LeagueGothicCondensedRegular;
+text-transform: uppercase;
+font-size: 20px;
 }
 
 #hello {
   font-size:  64px;
   color: rgba(0,0,0,.4);
-
+  font-family: League Gothic, Sans-Serif;
+  text-shadow: 2px px 0px rgba(0,0,0,0.2);
   padding: 0px 0px 0px 0px;
+  text-align: left;
 }
+
+.content {
+  border: 1px solid red;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+#grid {
+  border: 1px solid black;
+  width: 99%;
+  height: auto;
+  margin: 80px auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.item{
+  width: 33%;
+  border: 1px solid blue;
+  height: auto;
+  float: left;
+  text-align: center;
+
+
+}
+
+#grid i {
+  font-size: 145px;
+  line-height: 250px;
+}
+
+.projectgallery{
+  border: 1px solid black;
+  height: 400px;
+
+}
+
+.projectinfo{
+border: 1px solid green;
+width: 30%;
+height: 100%;
+float: right;
+overflow:scroll;
+
+
+}
+
+.text {
+  margin-top: 92%;
+  border: 1px solid red;
+}
+
+#about_header{
+  width: 85%;
+  border: 1px solid pink;
+  margin: 40px auto;
+}
+
+#about_header img{
+  border-radius: 50%;
+  width: 200px;
+  border: 1px solid black;
+}
+
+
+#pottyplotter_content, #corequest_content{
+  display: none;
+}
+
