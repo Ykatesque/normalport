@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="css/reset.min.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
   </head>
@@ -34,7 +35,11 @@
   <div id ="aboutc">
     <div class="container">
       <div id="about_content">
-        <div id="about_header"><img src="current_photo.jpg"></div>
+        <div id="about_header"><img src="current_photo.jpg">
+          <div id="heading">
+            <p>I'm a <a class="link">designer</a> & aspiring <a class="link">web developer</a> born in Moscow and raised and presently residing in the SF Bay Area. I'm a recent UC Davis Design grad and am currently a student at General Assembly's Web Development Immersive Program. When I'm not crafting code, I like to <a class="link">take photographs</a> and hang out with my 3 cats.</p>
+
+        </div>
       </div>
 
     </div>
@@ -131,8 +136,8 @@ Working on CoreQuest gave me the opportunity to design, build, and finesse user 
        if(currentImage == 0) currentImage = 1;
        console.log(currentImage);
 
-       $('.display-sweet-image-behind').fadeTo(25, 0.55, function() {
-         $(this).css("background-image", "url(" + currentImage + ".jpg)", "opacity", "0.25").fadeTo(50, 1.0);
+       $('.display-sweet-image-behind').fadeTo(80, 0.55, function() {
+         $(this).css("background-image", "url(" + currentImage + ".jpg)", "opacity", "0.25").fadeTo(80, 1.0);
        });
 
        return currentImage;
@@ -140,7 +145,7 @@ Working on CoreQuest gave me the opportunity to design, build, and finesse user 
 
  setInterval(function(){
    currentImage = nextImage(currentImage);
- }, 200);
+ }, 600);
 
 
 
