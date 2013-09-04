@@ -44,8 +44,10 @@ body{
 
 #text {
 margin: 0 auto;
-width: 600px;
-text-align: justify;
+width: auto;
+height: auto;
+
+text-align: center;
 
 }
 
@@ -123,8 +125,8 @@ ul#menu {
 .display-sweet-image-behind {
    /* fallback color */
    color: white;
-
-   /* overrides color with nothingness */
+   border: 1px solid black;
+    /* overrides color with nothingness */
    -webkit-text-fill-color: transparent;
 
    /* remember non WebKit browsers will see all of this EXCEPT the text */
@@ -193,9 +195,10 @@ border-bottom: 1px solid #b2a79b;
 
 }
 .fancy_title {
-  text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
 margin: 0 0 0 10%;
 font-size: 360px;
+
 text-transform: uppercase;
 }
 
