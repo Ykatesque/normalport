@@ -41,7 +41,7 @@ var scrollContact = function(){
 
 var scrollAbout = function(){
   event.preventDefault();
-  $('body, html').animate({scrollTop: (840)}, 'slow');
+  $('body, html').animate({scrollTop: (950)}, 'slow');
   //$('.nav').css('background-image', 'url(../intoxicating_by_lexiibabii01-d53vl31.jpg)');
 
 

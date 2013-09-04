@@ -239,18 +239,38 @@ overflow:scroll;
   border: 1px solid red;
 }
 
-#about_header{
+.aboutheader{
   width: 85%;
   border: 1px solid pink;
   margin: 0px auto;
+
   overflow: hidden;
 }
 
-#about_header img{
+.aboutheader img{
   border-radius: 50%;
   width: 200px;
   border: 1px solid black;
   float: left;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+
+}
+
+#heading {
+  width:40%;
+  height: auto;
+
+  float: left;
+  margin-right: 10px;
+}
+
+#extra {
+  float: left;
+  width: 38%;
+  height: auto;
+
 }
 
 
