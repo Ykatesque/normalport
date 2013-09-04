@@ -5,9 +5,13 @@ src: url('../webfonts/leaguegothic-regular-webfont.ttf'),
 
 }
 
+body{
+  background: url('../lightpaperfibers.png');
+}
+
 #intro {
   width: 100%;
-  min-height: 745px;
+  min-height: 900px;
 
   text-align: center;
   padding-top: 100px;
@@ -73,10 +77,10 @@ ul#menu {
 }
 
 .container {
-  width: 95%;
+  width: 100%;
 
 
-  min-height: 880px;
+  min-height: 500px;
   /*border: 1px solid blue;*/
   margin: 0 auto;
   background: url('../lightpaperfibers.png');
@@ -126,19 +130,19 @@ ul#menu {
   border: 1px solid black;
   width: 90%;
   min-height: 700px;
-  margin: 40px  auto 0px auto ;
+  margin: 0px  auto 0px auto ;
   height: auto;
 }
 
 #portfolioc{
   background: url('../2.jpg') repeat;
-  border: 1px solid red;
+
 
 }
 
 #contactc{
   background: url('../3.jpg') repeat;
-  border: 1px solid pink;
+
 
 }
 .fancy_title {
@@ -191,17 +195,17 @@ font-size: 20px;
 }
 
 #grid {
-  border: 1px solid black;
+
   width: 99%;
   height: auto;
-  margin: 80px auto;
+  margin: 0px auto;
   overflow: hidden;
   text-align: center;
 }
 
 .item{
   width: 33%;
-  border: 1px solid blue;
+
   height: auto;
   float: left;
   text-align: center;
@@ -238,7 +242,7 @@ overflow:scroll;
 #about_header{
   width: 85%;
   border: 1px solid pink;
-  margin: 40px auto;
+  margin: 0px auto;
   overflow: hidden;
 }
 
@@ -252,5 +256,10 @@ overflow:scroll;
 
 #pottyplotter_content, #corequest_content{
   display: none;
+}
+
+#aboutc, #portfolioc, #contactc, #intro {
+  min-height: 850px;
+  border: 2px solid gold;
 }
 
