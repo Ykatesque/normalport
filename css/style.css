@@ -1,9 +1,31 @@
-@font-face
-{
-font-family: LeagueGothicCondensedRegular;
-src: url('../webfonts/leaguegothic-regular-webfont.ttf'),
+@font-face {
+font-family: LeagueGothicCondensed;
+src: url(../webfonts/leaguegothic-condensed-regular-webfont.ttf);
+src: url(../webfonts/leaguegothic-condensed-regular-webfont.eot);
+src: url(../webfonts/leaguegothic-condensed-regular-webfont.svg);
+src: url(../webfonts/leaguegothic-condensed-regular-webfont.woff);
+
 
 }
+
+@font-face {
+  font-family: LeagueGothicCondensedItalic;
+  src: url(../leaguegothic-condensed-italic-webfont.ttf);
+  src: url(../webfonts/leaguegothic-condensed-italic-webfont.eot);
+  src: url(../webfonts/leaguegothic-condensed-italic-webfont.svg);
+  src: url(../webfonts/leaguegothic-condensed-italic-webfont.woff);
+
+
+}
+
+
+@font-face {
+
+  font-family: LeagueGothicRegular;
+  src: url(../leaguegothic-regular-webfont.ttf);
+
+}
+
 
 body{
   background: url('../lightpaperfibers.png');
@@ -122,16 +144,21 @@ ul#menu {
 #aboutc {
   background: url('../1.jpg') repeat;
 
+}
+
+#about_content {
+
+}
 
 
 
 }
+
 #wrapper {
-  border: 1px solid black;
-  width: 90%;
-  min-height: 700px;
-  margin: 0px  auto 0px auto ;
-  height: auto;
+background-color: black;
+margin: 0 auto;
+border: 1px solid blue;
+
 }
 
 #portfolioc{
@@ -240,8 +267,8 @@ overflow:scroll;
 }
 
 .aboutheader{
-  width: 85%;
-  border: 1px solid pink;
+  width: 95%;
+
   margin: 0px auto;
 
   overflow: hidden;
@@ -261,7 +288,8 @@ overflow:scroll;
 #heading {
   width:40%;
   height: auto;
-
+  font-family: Open Sans;
+  font-size: 19px;
   float: left;
   margin-right: 10px;
 }
@@ -270,17 +298,18 @@ overflow:scroll;
   float: left;
   width: 38%;
   height: auto;
+  font-family: Open Sans;
 
 }
 
 
-#pottyplotter_content, #corequest_content{
+ #corequest_content{
   display: none;
 }
 
 #aboutc, #portfolioc, #contactc, #intro {
   min-height: 850px;
-  border: 2px solid gold;
+
 }
 
 
@@ -292,11 +321,49 @@ overflow:scroll;
 .fullgrid {
   float: left;
   width: 33%;
-  border: 1px solid black;
+  min-height: 300px;
   margin: 1px;
 
 }
 
 .fullgrid ul {
   text-align: left;
+  font-family: Open Sans;
+  font-size: 24px;
+}
+
+.fullgrid h4{
+  font-family: LeagueGothicRegular;
+  text-transform: uppercase;
+  font-size: 36px;
+  letter-spacing: 1px;
+  text-align: left;
+
+  margin: 0;
+  padding: 0;
+  f
+}
+
+#fullstack {
+  font-family: LeagueGothicCondensed, Sans-Serif;
+  text-transform: uppercase;
+  font-size: 56px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+
+}
+
+#heading p:first-child{
+  font-family: LeagueGothicRegular;
+  font-size: 45px;
+
+  margin: 0;
+  padding: 0;
+}
+
+.extraem {
+  font-family: LeagueGothicRegular, Sans-Serif;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
