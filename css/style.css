@@ -10,7 +10,7 @@ src: url(../webfonts/leaguegothic-condensed-regular-webfont.woff);
 
 @font-face {
   font-family: LeagueGothicCondensedItalic;
-  src: url(../leaguegothic-condensed-italic-webfont.ttf);
+  src: url(../webfonts/leaguegothic-condensed-italic-webfont.ttf);
   src: url(../webfonts/leaguegothic-condensed-italic-webfont.eot);
   src: url(../webfonts/leaguegothic-condensed-italic-webfont.svg);
   src: url(../webfonts/leaguegothic-condensed-italic-webfont.woff);
@@ -22,7 +22,7 @@ src: url(../webfonts/leaguegothic-condensed-regular-webfont.woff);
 @font-face {
 
   font-family: LeagueGothicRegular;
-  src: url(../leaguegothic-regular-webfont.ttf);
+  src: url(../webfonts/leaguegothic-regular-webfont.ttf);
 
 }
 
@@ -59,11 +59,12 @@ text-align: justify;
 
 
 
+
 }
 
 ul#menu {
   padding: 0;
-  margin: 0 0 0;
+  margin: 0px 0 0 0;
   text-align: right;
 
 }
@@ -102,7 +103,6 @@ ul#menu {
   width: 100%;
 
 
-  min-height: 500px;
   /*border: 1px solid blue;*/
   margin: 0 auto;
   background: url('../lightpaperfibers.png');
@@ -152,12 +152,16 @@ ul#menu {
 
 
 
-}
+
 
 #wrapper {
-background-color: black;
-margin: 0 auto;
-border: 1px solid blue;
+
+margin: 80px auto 0 auto;
+width: 96%;
+height: 650px;
+font-family: Open Sans;
+font-size: 18px;
+border-bottom: 1px solid black;
 
 }
 
@@ -180,8 +184,8 @@ text-transform: uppercase;
 }
 
 #otherp {
-  border: 1px solid blue;
-  width: 90%;
+
+  width: 95%;
   margin: 0px auto ;
   overflow: hidden;
 }
@@ -190,14 +194,21 @@ text-transform: uppercase;
   display: inline;
   float: left;
   padding-right: 20px;
+
 }
 
+
+#otherp li a{
+  text-decoration: none;
+  color: #b2a79b;
+}
 #otherp ul {
 
-border: 1px solid green;
+
 float: right;
 font-family: League Gothic, Sans-Serif;
 text-transform: uppercase;
+
 font-size: 20px;
 }
 
@@ -214,11 +225,15 @@ font-size: 20px;
 }
 
 .content {
-  border: 1px solid red;
-  margin-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
 
+}
+
+.content h4 {
+  font-family: League Gothic, Sans-Serif;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-size: 34px;
 }
 
 #grid {
@@ -252,9 +267,9 @@ font-size: 20px;
 }
 
 .projectinfo{
-border: 1px solid green;
-width: 30%;
-height: 100%;
+margin-top: 200px;
+width: 20%;
+
 float: right;
 overflow:scroll;
 
@@ -262,8 +277,7 @@ overflow:scroll;
 }
 
 .text {
-  margin-top: 92%;
-  border: 1px solid red;
+
 }
 
 .aboutheader{
@@ -355,6 +369,7 @@ overflow:scroll;
 
 #heading p:first-child{
   font-family: LeagueGothicRegular;
+
   font-size: 45px;
 
   margin: 0;
@@ -364,6 +379,18 @@ overflow:scroll;
 .extraem {
   font-family: LeagueGothicRegular, Sans-Serif;
   font-size: 28px;
+  /*color: #a19384;*/
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+#projectintro {
+  width: 60%;
+  line-height: 22px;
+  font-size:20px;
+}
+
+
+.hidden {
+  display: none;
 }

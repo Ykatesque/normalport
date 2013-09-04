@@ -29,7 +29,7 @@ $(window).scroll(function() {
 
 var scrollPort = function(){
   event.preventDefault();
-  $('body, html').animate({scrollTop: 880 + 840}, 'slow');
+  $('body, html').animate({scrollTop: 880 + 920}, 'slow');
 
 };
 
