@@ -13,6 +13,8 @@
 
   </head>
   <body>
+
+<!-- fancy_title is pure type with a background-clip css property and a jquery function switching the bg image-->
   <div id="intro">
     <span id ="hello">Hello, I'm</span>
     <div id ="text" class="display-sweet-image-behind">
@@ -27,7 +29,9 @@
     </div>
   </div>
 
-  <div id ="aboutc">
+  <!--about section -->
+
+  <div id ="aboutc" >
     <div class="container">
       <div id="about_content">
         <div class="aboutheader"><img src="current_photo.jpg">
@@ -37,26 +41,30 @@
 
             <p>I like to think about projects holistically and thoroughly enjoy the process of bringing a unique back-end feature to life through code and visual design.</p>
             <p>I also just really love jQuery plugins.</p>
-        </div>
+          </div>
 
-        <div id ="extra">
-          <p><span class ="extraem">Education:</span><br>
-          B.A. in Design - University of California, Davis. - 2012<br>
-          Front-End Web Development - General Assembly 2013<br>
-          Web Development Immersive - General Assembly San Francisco 2013<br>
-        </p>
+          <div id ="extra">
+            <p>
+              <span class ="extraem">Education:</span><br>
+              B.A. in Design - University of California, Davis. - 2012<br>
+              Front-End Web Development - General Assembly 2013<br>
+              Web Development Immersive - General Assembly San Francisco 2013<br>
+            </p>
 
-          <p><span class ="extraem">Extracurricular Activities:</span><br>
-          Marathon movie nights, mushroom foraging & hiking, hanging out with my 3 cats.
-        </p>
+            <p>
+              <span class ="extraem">Extracurricular Activities:</span><br>
+              Marathon movie nights, mushroom foraging & hiking, hanging out with my 3 cats.
+            </p>
 
-          <p><span class="extraem">Guilty Pleasure:</span><br>
-          Karaoke.
+          <p>
+            <span class="extraem">Guilty Pleasure:</span><br>
+            Karaoke.
           </p>
         </div>
 
       </div>
       <hr>
+      <!--second half of about container -->
       <div class="aboutheader" id="biocontainer">
         <div id ="fullstack">Full-Stack Developer</div>
         <div class="fullgrid">
@@ -68,41 +76,29 @@
             <li>Capybara</li>
             <li>RSpec</li>
             <li>Git/Github</li>
-
-
           </ul>
         </div>
         <div class="fullgrid">
           <h4>Frontend</h4>
           <ul>
-          <li>JavaScript</li>
-          <li>jQuery</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Twitter Bootstrap/Zurb Foundation</li>
-          <li>Backbone.js</li>
-
-        </ul>
-
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Twitter Bootstrap/Zurb Foundation</li>
+            <li>Backbone.js</li>
+          </ul>
         </div>
         <div class="fullgrid">
           <h4>Visual Design</h4>
           <ul>
-          <li>Adobe Creative Suite</li>
-
-          <li>Digital & Film Photography</li>
-          <li>Branding & Identity</li>
-          <li>Motion Graphics</li>
-          <li>Creative Direction</li>
-
-
-
+            <li>Adobe Creative Suite</li>
+            <li>Digital & Film Photography</li>
+            <li>Branding & Identity</li>
+            <li>Motion Graphics</li>
+            <li>Creative Direction</li>
           </ul>
         </div>
-
-
-
-
       </div>
     </div>
   </div>
@@ -143,13 +139,11 @@
               </div>
             </div>
           </div>
-            <P>
-Working on CoreQuest gave me the opportunity to design, build, and finesse user interaction, user experience, and visual design aspects of the product from the ground up. Although I decided to not use a front-end framework for base layout/typography, I was able to introduce visual user interaction using jQuery and Isotope JS libraries. </p>
+            <p>
+              Working on CoreQuest gave me the opportunity to design, build, and finesse user interaction, user experience, and visual design aspects of the product from the ground up. Although I decided to not use a front-end framework for base layout/typography, I was able to introduce visual user interaction using jQuery and Isotope JS libraries.
+            </p>
       </div>
       </div>
-
-
-
     </div>
       <div id ="otherp">
         <ul id ="proj">
@@ -176,56 +170,10 @@ Working on CoreQuest gave me the opportunity to design, build, and finesse user 
   </div>
 </div>
 
-
-
-
-
-
-
-
 </body>
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <script src="js/jquery.lettering.js"></script>
-
-  <script>
-
- var scrollSpeed = 2500;
- var currentImage = 1;
-
- function nextImage(currentImage) {
-       currentImage = ((currentImage + 1) % 4); // we have images 1..6 to cycle through
-       if(currentImage == 0) currentImage = 1;
-       console.log(currentImage);
-
-       $('.display-sweet-image-behind').fadeTo(80, 0.55, function() {
-         $(this).css("background-image", "url(" + currentImage + ".jpg)", "opacity", "0.25").fadeTo(80, 1.0);
-       });
-
-       return currentImage;
- }
-
- setInterval(function(){
-   currentImage = nextImage(currentImage);
- }, 600);
-
-
-
-
-  $(document).ready(function() {
-    $(".link").on("click", function() {
-      // hide all elements under crate
-      event.preventDefault();
-    $('#wrapper').children().hide();
-
-      // now show the element clicked...
-      child_element_name = $(this).data("target");
-      $(child_element_name).fadeToggle();
-
-   });
- });
-
-  </script>
 <script src="js/script.js"></script>
 </html>

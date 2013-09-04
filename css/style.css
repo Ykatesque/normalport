@@ -136,8 +136,24 @@ ul#menu {
    font-family: League Gothic, Sans-Serif;
 
 
-   width: auto;
 
+
+}
+
+.aboutbg{
+
+  color: white;
+
+  /* overrides color with nothingness */
+  -webkit-text-fill-color: transparent;
+
+  /* remember non WebKit browsers will see all of this EXCEPT the text */
+  background: url('../1.jpg') repeat;
+
+  /* the magic */
+  -webkit-background-clip: text;
+
+  font-family: League Gothic, Sans-Serif;
 
 }
 
@@ -161,7 +177,7 @@ width: 96%;
 height: 650px;
 font-family: Open Sans;
 font-size: 18px;
-border-bottom: 1px solid black;
+border-bottom: 1px solid #b2a79b;
 
 }
 
@@ -192,8 +208,8 @@ text-transform: uppercase;
 
 #otherp li {
   display: inline;
-  float: left;
-  padding-right: 20px;
+
+  padding-right: 40px;
 
 }
 
@@ -205,7 +221,8 @@ text-transform: uppercase;
 #otherp ul {
 
 
-float: right;
+text-align: center;
+overflow: hidden;
 font-family: League Gothic, Sans-Serif;
 text-transform: uppercase;
 
