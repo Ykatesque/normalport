@@ -283,3 +283,20 @@ overflow:scroll;
   border: 2px solid gold;
 }
 
+
+#biocontainer {
+  text-align: center;
+
+}
+
+.fullgrid {
+  float: left;
+  width: 33%;
+  border: 1px solid black;
+  margin: 1px;
+
+}
+
+.fullgrid ul {
+  text-align: left;
+}
