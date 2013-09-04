@@ -257,15 +257,20 @@ font-size: 20px;
 
   width: 99%;
   height: auto;
-  margin: 0px auto;
+  margin: 80px auto 80px auto;
   overflow: hidden;
   text-align: center;
+
+  padding-bottom: 60px;
 }
 
 .item{
   width: 33%;
 
-  height: auto;
+
+
+
+  height: 300px;
   float: left;
   text-align: center;
 
@@ -410,4 +415,32 @@ overflow:scroll;
 
 .hidden {
   display: none;
+}
+
+
+.item a{
+  text-decoration: none;
+  color: #3d2b8e;
+  opacity: 0.8;
+
+
+}
+
+.item a:hover{
+  color: black;
+  color: #2dbae8;
+  transition: width 2s;
+  -webkit-transition: width 2s; /* Safari */
+}
+
+.item div {
+
+  display: hidden;
+  line-height: 30px;
+
+  font-family: Open Sans, Sans-Serif;
+  font-size: 26px;
+
+  color:  #3d2b8e;
+
 }

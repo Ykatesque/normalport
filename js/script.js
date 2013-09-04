@@ -6,7 +6,7 @@ var currentImage = 1;
 function nextImage(currentImage) {
       currentImage = ((currentImage + 1) % 4); // we have images 1..6 to cycle through
       if(currentImage == 0) currentImage = 1;
-      console.log(currentImage);
+      //console.log(currentImage);
 
       $('.display-sweet-image-behind').fadeTo(80, 0.55, function() {
         $(this).css("background-image", "url(" + currentImage + ".jpg)", "opacity", "0.25").fadeTo(80, 1.0);
@@ -61,7 +61,7 @@ var scrollPort = function(){
 
 var scrollContact = function(){
   event.preventDefault();
-  $('body, html').animate({scrollTop: ((860 * 2)+ 880)}, 'slow');
+  $('body, html').animate({scrollTop: ((890 * 2)+ 980)}, 'slow');
 };
 
 
@@ -99,6 +99,13 @@ aboutlink.on('click', scrollAbout);
    $(child_element_name).fadeToggle();
 
 });
+
+  $(".item a").hover(function() {
+
+  $(this).next().fadeToggle();
+
+
+ });
 
 
 });
