@@ -176,7 +176,7 @@ height: 650px;
 font-family: Open Sans;
 font-size: 18px;
 padding-bottom: 30px;
-border-bottom: 1px solid #b2a79b;
+
 
 }
 
@@ -409,7 +409,7 @@ padding: 0;
   letter-spacing: 2px;
 }
 
-#projectintro {
+.projectintro {
   width: 60%;
   line-height: 22px;
   font-size:20px;
@@ -459,3 +459,4 @@ padding: 0;
 .projectinfo a:hover {
   color:#6bbec1;
 }
+
