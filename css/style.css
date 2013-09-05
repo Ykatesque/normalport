@@ -34,11 +34,9 @@ body{
 #intro {
   width: 100%;
   min-height: 900px;
-
   text-align: center;
   padding-top: 100px;
   background: url('../lightpaperfibers.png');
-
   -webkit-transition: all 0.2s ease-out;
   -webkit-transition-property: all;
   -webkit-transition-duration: 0.2s;
@@ -60,20 +58,14 @@ text-align: center;
 
 }
 #menu {
-
   /*background: url('../lightpaperfibers.png');*/
   background: transparent;
-
-
-
-
 }
 
 ul#menu {
   padding: 0;
   margin: 0px 0 0 0;
   text-align: right;
-
 }
 
 #menu  li{
@@ -224,6 +216,11 @@ text-transform: uppercase;
 
 #otherp li a{
   text-decoration: none;
+  color: #58b3bf;
+
+}
+
+#otherp li a:hover {
   color: #b2a79b;
 }
 #otherp ul {
@@ -256,6 +253,7 @@ font-size: 20px;
   padding: 0;
   margin: 0;
   font-size: 34px;
+  color: #58b3bf;
 }
 
 #grid {
@@ -305,7 +303,7 @@ padding-top: 0px;
 }
 
 .text{
-  margin-top: 15px;
+  margin-top: 35px;
 }
 .text p{
 margin: 0;
@@ -347,9 +345,6 @@ padding: 0;
 }
 
 
- #corequest_content{
-  display: none;
-}
 
 #aboutc, #portfolioc, #contactc, #intro {
   min-height: 850px;
@@ -415,7 +410,6 @@ padding: 0;
 }
 
 #projectintro {
-
   width: 60%;
   line-height: 22px;
   font-size:20px;
@@ -431,8 +425,6 @@ padding: 0;
   text-decoration: none;
   color: #3d2b8e;
   opacity: 0.8;
-
-
 }
 
 .item a:hover{
@@ -443,13 +435,10 @@ padding: 0;
 }
 
 .item div {
-
   display: hidden;
   line-height: 30px;
-
   font-family: Open Sans, Sans-Serif;
   font-size: 26px;
-
   color:  #3d2b8e;
 
 }

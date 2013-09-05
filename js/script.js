@@ -54,7 +54,7 @@ $(window).scroll(function() {
 
 var scrollPort = function(){
   event.preventDefault();
-  $('body, html').animate({scrollTop: 880 + 920}, 'slow');
+  $('body, html').animate({scrollTop: 880 + 940}, 'slow');
   aboutlink.addClass('.aboutbg');
 
 };
@@ -96,6 +96,7 @@ aboutlink.on('click', scrollAbout);
 
    // now show the element clicked...
    child_element_name = $(this).data("target");
+   console.log($(this).data("target"))
    $(child_element_name).fadeToggle();
 
 });
